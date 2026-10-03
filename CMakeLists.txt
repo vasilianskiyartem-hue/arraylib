@@ -52,3 +52,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/examples/variant_01.cpp")
     add_executable(variant_01 examples/variant_01.cpp)
     target_link_libraries(variant_01 PRIVATE arraylib)
 endif()
+
+# Вариант 7
+add_executable(variant_07 examples/variant_07.cpp)
+target_link_libraries(variant_07 PRIVATE arraylib)
